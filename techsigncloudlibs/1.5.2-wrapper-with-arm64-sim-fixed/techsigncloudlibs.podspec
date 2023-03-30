@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "burakyildiz" => "burak.yildiz@techsign.com.tr" }
-    s.source       = { :git => "https://github.com/Techsign/PODS.git", :tag => "#{s.version}" }
+    s.source       = { :git => "https://github.com/soneratmaca00/PODSPECS-master.git", :tag => "#{s.version}" }
     s.vendored_frameworks = ["DigisignBase.xcframework",
         "id_card_detection_ios.xcframework",
         "id_card_detection_ios_cnn.xcframework",

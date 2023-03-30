@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "burakyildiz" => "burak.yildiz@techsign.com.tr" }
-    s.source       = { :git => "https://github.com/Techsign/PODS.git", :tag => "#{s.version}" }
+    s.source       = { :git => "https://github.com/soneratmaca00/PODSPECS-master.git", :tag => "#{s.version}" }
     s.vendored_frameworks = ["openssl.xcframework","DigisignBase.xcframework","id_card_detection_ios.xcframework","RKYC_iOS.xcframework","passport_reader.xcframework"]
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }

@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "burakyildiz" => "burak.yildiz@techsign.com.tr" }
-    s.source       = { :git => "https://github.com/Techsign/PODS.git", :tag => "1.5.2-wrapper-with-arm64-sim-fixed-v2" }
+    s.source       = { :git => "https://github.com/soneratmaca00/PODSPECS-master.git", :tag => "1.5.2-wrapper-with-arm64-sim-fixed-v2" }
     s.vendored_frameworks = ["id_card_detection_ios_cnn.xcframework",
         "RKYC_iOS.xcframework",
         "OpenCVTechsign.xcframework",
